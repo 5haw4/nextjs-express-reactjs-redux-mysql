@@ -1,0 +1,22 @@
+.card {
+    max-width: 650px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    box-shadow: 5px 5px 0px 3px #61dafb;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+    margin: 25px;
+
+    > b {
+        font-size: unset;
+        margin: unset;
+        u {
+            text-decoration-style: wavy;
+            text-decoration-thickness: 2.15px;
+            text-underline-offset: 5px;
+            text-decoration-color: #61dafb;
+        }
+    }
+}

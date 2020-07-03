@@ -17,7 +17,10 @@ const Counter = (props) => {
 
     return (
         <div>
-            <p>Pages Browsed Count: {counter}</p>
+            <p style={{margin: 0}}>Pages Browsed Count: {counter}</p>
+            <p style={{fontSize: "16px", margin: "5px 30px"}}>
+                This counter is managed by redux to show the global state management flow and functionality
+            </p>
             <Button onClick={() => props.resetCount()}>Reset Count</Button>
         </div>
     )

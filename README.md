@@ -1,5 +1,7 @@
 # Fullstack Boilerplate - NextJS, Express, ReactJS, Redux and MySQL
 Fullstack boilerplate using NextJS, NodeJS, Express, ReactJS, Redux, and MySQL, features include activity logger, crash logger, rate limiter, and much more...
+### V1.1.0 Changes:
+- Added the ability to call async redux actions from within getInitialProps
 
 ## Libraries:
 - [create-next-app](https://www.npmjs.com/package/create-next-app) - react framework with built-in router, SSR, SSG and more
@@ -14,6 +16,7 @@ Fullstack boilerplate using NextJS, NodeJS, Express, ReactJS, Redux, and MySQL, 
 - [redux](https://www.npmjs.com/package/redux) - state container
 - [react-redux](https://www.npmjs.com/package/react-redux) - binder for react and redux
 - [redux-thunk](https://www.npmjs.com/package/redux-thunk) - async actions for redux (redux middleware)
+- [next-redux-wrapper](https://github.com/kirill-konshin/next-redux-wrapper) - higher order component that make a deeper connection between Redux and NextJS - used in this project for dispatching actions from getInitialProps
 - [node-sass](https://www.npmjs.com/package/node-sass) - add SCSS support
 - [react-icons](https://www.npmjs.com/package/react-icons) - multiple icon libraries in one
 
